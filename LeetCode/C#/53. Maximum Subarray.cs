@@ -1,5 +1,7 @@
 public class Solution {
     public int MaxSubArray(int[] nums) {
+        // Implementation of Kadane's algorithm
+
         var max = int.MinValue; 
         var currentMax = 0;
         
